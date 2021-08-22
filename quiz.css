@@ -1,0 +1,130 @@
+
+
+
+a {
+  font-family: monospace;
+  color: #dbe1e7!important;
+  text-decoration: none!important;
+}
+
+a:hover{
+  color: #dbe1e7!important;
+  font-weight: bold;
+  text-decoration: underline!important;
+
+}
+.quiz{
+  min-height: 100px;
+  height: 300px;;
+  background-color: rgb(34, 34, 60);
+  color: bisque;
+  background-image: url(bg_2.png);
+  background-position: top;
+}
+img, .logo{
+  width: 20%;
+  height: 40%;
+  border-radius: 50%;
+}
+
+.Welcome
+{
+  padding: 100px;
+  text-align: center;
+  background-color: rgb(6, 26, 43);
+  color: #c78181;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+.quiz_logo{
+  padding: 30px;
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+
+.quiz_name {
+  padding: 80px;
+  text-decoration: none;
+  text-indent: 2px;
+  font-family: fantasy;
+  text-align: center;
+  width: 50%;
+  float: right;
+  height: fit-content;
+}
+
+.quiz_wrap{
+  padding: 50px;
+
+  
+}
+
+.quiz_wrap ,h1{
+
+  text-transform: uppercase;
+  text-align: center;
+  color: bisque;
+
+  
+}
+
+/* /* (A) WRAPPER */
+#quizWrap {
+  max-height:500px;
+  margin: 0 auto;
+  background-color: black;
+  
+  /* RECOMMENDED FIXED HEIGHT IF YOU HAVE CONTENT BELOW THE QUIZ */
+  /* SO THAT PAGE LAYOUT DOES NOT "JUMP" */
+  /* height: 250px; */
+}
+
+/* (B) QUESTION */
+#quizQn {
+  padding: 30px;
+  background: #04151f;
+  color: rgb(119, 114, 73);
+  font-size: 24px;
+  border-radius: 40px;
+ 
+}
+
+/* (C) ANSWERS */
+ #quizAns {
+  margin: 40px 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+  
+} 
+#quizAns input[type=radio] { display: none; }
+#quizAns label {
+  background: #bcc9d8;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+  color: #04151f;
+}
+#quizAns label.correct {
+  background: #132709;
+  border: 1px solid #203f11;
+  color: white;
+}
+#quizAns label.wrong {
+  background: #a52222;
+  border: 1px solid #c78181;
+  color: white;
+}
+
+
+html, body {
+  background: #1d455c;
+  font-family: arial, sans-serif;
+}
